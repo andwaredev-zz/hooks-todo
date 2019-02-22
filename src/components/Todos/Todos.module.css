@@ -1,0 +1,53 @@
+.todos {
+  padding: 24px;
+  margin: 24px auto;
+  width: calc(100% - 48px);
+  border: solid 1px #ddd;
+  border-radius: 2px;
+}
+
+.todos__header {
+  margin-bottom: 36px;
+}
+
+.todos__header__text {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.todos__list {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list__new-todo-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  border: solid 1px #eee;
+  border-radius: 2px;
+  padding: 8px 12px;
+  margin-top: 36px;
+  width: 100%;
+}
+
+.list__new-todo-item:hover {
+  border-color: #bbb;
+}
+
+.list__new-todo-item:focus {
+  outline: none;
+}
+
+.new-todo-item__icon {
+  margin-right: 12px;
+  color: #aaa;
+  font-size: 18px;
+}
+
+.list__new-todo-item:hover .new-todo-item__icon {
+  color: #333;
+}

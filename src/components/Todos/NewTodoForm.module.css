@@ -1,0 +1,23 @@
+.new-todo-form {
+  margin-top: 36px;
+}
+
+.new-todo-form__header {
+  margin-bottom: 12px;
+}
+
+.new-todo-form__form-group {
+
+}
+
+.form-group__label {
+
+}
+
+.form-group__input {
+
+}
+
+.new-todo-form__button:not(:last-child) {
+  margin-right: 16px;
+}

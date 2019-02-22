@@ -1,0 +1,17 @@
+.percentage {
+  display: block;
+  width: 100%;
+}
+
+.percentage__label {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.percentage__progress--empty .progress-bar__label {
+  margin-left: 8px;
+}
+
+.percentage__progress--full .progress-bar {
+  background-color: #28a745;
+}
