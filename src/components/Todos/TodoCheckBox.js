@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
+
 import styles from "./TodoCheckBox.module.css";
 
 const TodoCheckBox = ({ isCompleted, onClick }) => (

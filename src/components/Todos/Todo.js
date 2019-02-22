@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { todoPropTypes } from "../../constants";
 import TodoCheckBox from "./TodoCheckBox";
+
 import styles from "./Todo.module.css";
 
 const Todo = ({ label, isCompleted, onCheckBoxClick }) => (
